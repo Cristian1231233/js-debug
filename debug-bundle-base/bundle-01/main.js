@@ -97,4 +97,3 @@ function displayEvenNumbers() {
     }
 }
 displayEvenNumbers();
-console.log(displayEvenNumbers());

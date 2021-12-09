@@ -130,6 +130,39 @@ checkAccess();
 ////////////////////
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
+// function checkAccessImproved() {
+//     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
+
+//     const userEmail = prompt('Inserisci il tuo indirizzo email');
+
+//     let grantAccess = false;
+
+//     for (let i = 0; i < addresses.length; i++) {
+//      const email = addresses[i];
+        
+//       if (userEmail.length > 5) {
+            
+//         if (email === userEmail) {
+//         grantAccess = 'true';            
+            
+//       }
+        
+//     }
+
+//     if (grantAccess) {
+//         console.log('Accesso consentito!');
+//     } else {
+//         console.log('Accesso negato!');
+//     }
+// }
+// checkAccessImproved();
+
+// 1- Fa una funzione che in base ad alcune condizioni ci dice l'email inserita puo accedere o no
+// 2- Si, manca la parentesi graffa che chiude la funzione
+
+
+/////////////////////////
+
 function checkAccessImproved() {
     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
 
@@ -155,8 +188,8 @@ function checkAccessImproved() {
         console.log('Accesso negato!');
     }
 }
+}
 checkAccessImproved();
-
 
 
 
